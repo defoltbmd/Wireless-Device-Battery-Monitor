@@ -131,6 +131,7 @@ void PollMsi(PollContext& ctx);       // MSI wireless mice: VERSA 300 ELITE, CLU
 void PollMchoseModern(PollContext& ctx);  // MCHOSE modern mice and K87 V3 keyboard (3837:1015)
 void PollMchoseHeadset(PollContext& ctx);  // MCHOSE V9 Pro 2 headset (3837:6011, M HUB "MC" protocol)
 void PollMchoseV9Pro(PollContext& ctx);  // MCHOSE V9 / V9 PRO / S9 PRO / G9 PRO headset dongle (291D:385D, "BLK" protocol)
+void PollMchoseV9Turbo(PollContext& ctx);  // MCHOSE V9 Turbo+ / V9 Turbo / V9 Turbo Headset (3837:6009/600A/600D, bare "65 01" frame)
 void PollVgn(PollContext& ctx);        // VGN OMNISOUND (ZHOUTING) headset (372E:10BB, V HUB "ZHOU" protocol)
 void PollMchoseKeyboard(PollContext& ctx);  // MCHOSE keyboards on the 3837:3033 receiver (GLW protocol)
 void PollRapoo(PollContext& ctx);     // Rapoo VT gaming mice incl. VT1 Pro Max (passive battery reports)

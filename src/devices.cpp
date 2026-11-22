@@ -110,6 +110,7 @@ std::vector<DeviceStatus> PollAllDevices() {
     PollMchoseModern(ctx);
     PollMchoseHeadset(ctx);
     PollMchoseV9Pro(ctx);
+    PollMchoseV9Turbo(ctx);  // V9 Turbo family: bare frame, not the MC one above
     PollVgn(ctx);
     PollMchoseKeyboard(ctx);  // 3837:3033 receiver, before the generic fallbacks
     PollMiscMice(ctx);
